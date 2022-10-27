@@ -1,11 +1,12 @@
 
 // screens/UserScreen.js
-
+//importerer verktøy
 import React, { Component } from 'react';
 import { StyleSheet, ScrollView, ActivityIndicator, View } from 'react-native';
 import { ListItem } from 'react-native-elements'
 import firebase from "firebase/compat";
 
+//extender component for få tak i alle egenskapene
 class UserScreen extends Component {
 
     constructor() {
