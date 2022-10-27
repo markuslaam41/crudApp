@@ -1,6 +1,6 @@
 import firebase from "firebase/compat";
 import React, { Component } from 'react';
-import { Alert, Button, StyleSheet, TextInput, ScrollView, ActivityIndicator, View } from 'react-native';
+import { Alert, Button, StyleSheet, TextInput, ScrollView, ActivityIndicator, View, Pressable} from 'react-native';
 
 
 class UserDetailScreen extends Component {
